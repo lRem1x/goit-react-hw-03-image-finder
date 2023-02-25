@@ -6,7 +6,7 @@ export const getImages = async (imageName, pageNumber) => {
     try {
         return await axios.get(URL, {
         params: {
-            key: '32278490-2dbba53cd6748a66599a7e56e',
+            key: '33913920-2ed363835b555a522d2b5db48',
             q: imageName,
             image_type: 'photo',
             orientation: 'horizontal',
