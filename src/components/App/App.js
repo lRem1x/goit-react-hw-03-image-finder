@@ -8,6 +8,7 @@ import Button from 'components/Button';
 import * as API from 'services/api';
 import Loader from 'components/Loader';
 
+
 export default class App extends PureComponent {
   state = {
     page: 1,
